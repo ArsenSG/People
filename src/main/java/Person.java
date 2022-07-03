@@ -1,8 +1,8 @@
 import java.util.OptionalInt;
 
 public class Person {
-    private final String name;
-    private final String surname;
+    protected final String name;
+    protected final String surname;
     private OptionalInt age = OptionalInt.empty(); //храним возраст в контейнере
     private String city;
 
